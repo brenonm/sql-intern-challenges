@@ -1,7 +1,6 @@
 services:
   db:
     image: brenonakad/intern-sql-challenges:1.0
-    container_name: intern_challenges_db
     environment:
       POSTGRES_USER: intern
       POSTGRES_PASSWORD: intern
