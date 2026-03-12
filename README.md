@@ -29,21 +29,21 @@ Before starting, install the following tools.
 
 Docker is used to run the database locally.
 
-Download:  
+Download:
 https://www.docker.com/products/docker-desktop/
 
 ### Git
 
 Git is used to clone the repository.
 
-Download:  
+Download:
 https://git-scm.com/downloads
 
 ### DBeaver
 
 DBeaver is the SQL client used to query the database.
 
-Download:  
+Download:
 https://dbeaver.io/download/
 
 ## Repository Structure
@@ -67,7 +67,7 @@ Follow these steps when running the environment for the first time.
 Open a terminal and run:
 
 ```bash
-git clone https://github.com/YOUR_ORG/sql-intern-challenges.git
+git clone https://github.com/brenonm/sql-intern-challenges.git
 ```
 
 Enter the repository folder:
