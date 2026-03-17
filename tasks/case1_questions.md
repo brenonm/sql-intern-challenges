@@ -16,7 +16,9 @@ Schema: `case1.*`
 6) Renewal: % of subscriptions that have a new subscription within 7 days after an end_date.
 7) For each user: first order date, second order date, and days between them.
 8) Return rate by category (returned qty / sold qty) + most common return reason per category.
-9) Data quality: find orders where computed item total differs from expected by > 1%.
+9) Data quality investigation: identify orders whose status appears inconsistent with their item and return activity
+  - Cancelled orders that still have positive sold value
+  - Paid orders whose returned value exceeds sold value
 
 ## Bonus
 1) Identify top 5% users by net revenue and their favorite category.
