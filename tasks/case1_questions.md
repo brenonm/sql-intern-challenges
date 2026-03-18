@@ -13,7 +13,7 @@ Schema: `case1.*`
 3) Top 3 categories by net revenue in the last 90 days.
 4) Cohorts: users created per month and % who placed an order within 14 days of signup.
 5) AOV by channel (exclude cancelled orders).
-6) Renewal: % of subscriptions that have a new subscription within 7 days after an end_date.
+6) Subscription continuation risk: what % of ended subscriptions belong to users who did not place any order within 7 days after the subscription end date?
 7) For each user: first order date, second order date, and days between them.
 8) Return rate by category (returned qty / sold qty) + most common return reason per category.
 9) Data quality investigation: identify orders whose status appears inconsistent with their item and return activity
